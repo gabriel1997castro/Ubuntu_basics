@@ -90,7 +90,8 @@ echo "###################### INSTALL VS CODE ###############################"
 
 mkdir vscode
 cd vscode
-wget https://go.microsoft.com/fwlink/?LinkID=760868
+sudo wget https://go.microsoft.com/fwlink/?LinkID=760868 
+sudo mv index.html?LinkID=760868 code_amd64.deb
 sudo dpkg -i *_amd64.deb
 cd ..
 rm -r vscode
