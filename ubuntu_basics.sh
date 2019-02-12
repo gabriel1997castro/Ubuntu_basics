@@ -1,3 +1,4 @@
+# @autor : Gabriel Castro
 #!/bin/bash
 
 mkdir temp
